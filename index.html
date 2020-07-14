@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat+Subrayada:wght@700&display=swap"
+        rel="stylesheet">
+
+    <title>My Portfolio</title>
 </head>
+
 <body>
-    
+    <header>
+
+        <div  data-aos="fade-down-right" class="links">
+
+            <h1>Jonathan Raczkowski</h1>
+
+            <nav>
+                <a class="#about.html" href="">About</a>
+                <a class="projects.html" href="">Projects</a>
+                <a class="#contact.html" href="">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="main-container">
+        <div data-aos="fade-right">
+            <img src="https://picsum.photos/200/300?random=10" alt="">
+        </div>
+
+        <div data-aos="fade-left" class="info-text">
+            <h2>Jonathan Raczkowski</h2>
+            <a href="#projects.html">My Projects</a>    
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid doloremque vero cum nesciunt ab,
+                earum quam laboriosam, tenetur quia, suscipit officia. Voluptas numquam nam tempore qui.
+                Nesciunt omnis excepturi consequuntur.</p>
+        </div>
+
+    </section>
+
+
+
+    <section class="gallery-container">
+
+        <div data-aos="fade-up" class="top-gallery">
+        <img src="https://picsum.photos/200/300?grayscale&2random=1" alt="A random picture being generated">
+        <img src="https://picsum.photos/200/300?grayscale&blur=2random=2" alt="A random picture being generated">
+        <img src="https://picsum.photos/200/300?grayscale&2random=3" alt="A random picture being generated">
+        <img src="https://picsum.photos/200/300?grayscale&blur=2random=4" alt="A random picture being generated">
+        </div>
+        <div data-aos="fade-down"  class="bottom-gallery">
+        <img src="https://picsum.photos/200/300?grayscale&blur=2random=5" alt="A random picture being generated">
+        <img src="https://picsum.photos/200/300?grayscale&random=6" alt="A random picture being generated">
+        <img src="https://picsum.photos/200/300?grayscale&blur=2random=7" alt="A random picture being generated">
+        <img src="https://picsum.photos/200/300?grayscale&random=8" alt="A random picture being generated">
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>Like what you see?</h3>
+
+        <button>Contact Me</button>
+
+        <div class="">
+
+            <ul class="social-menu">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>Facebook</li>
+                <li><a href="https://www.linkedin.com/?hl=en"><i class="fa fa-linkedin" aria-hidden="true"></i></a>LinkedIn</li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>Twitter</li>
+              </ul>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="scripts.js" type="text/javascript"></script>
+
+
 </body>
+
 </html>
